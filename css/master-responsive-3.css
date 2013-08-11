@@ -772,7 +772,7 @@ img.native-width {
   width: auto;
 }
 
-.img-circle {max-width: 80% !important;}
+.img-circle {max-width: 80% !important; border-radius: 6px;}
 
 .container {
   zoom: 1;
@@ -2954,10 +2954,6 @@ button.close {
 
 #page-header {
   padding: 28px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.13);
-  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.06);
-  -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.06);
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.06);
 }
 #page-header h1 {
   margin: 0;
@@ -3177,11 +3173,11 @@ button.close {
 }
 
 .avatar img {
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border-radius: 100px;
 }
 
 #facepile {
@@ -5376,7 +5372,7 @@ a[rel=tooltip] {
 .center {text-align: center !important; margin: auto auto;}
 
 #what-we-do {
-  padding: 134px 0 84px;
+  padding: 160px 0 84px;
   background: #111111 url("interface/what-we-do.jpg") no-repeat 50% 50%;
   background-size: cover;
   -moz-background-size: cover;
@@ -5397,8 +5393,19 @@ a[rel=tooltip] {
   min-height: 360px;
 }
 
+#team {
+  padding: 160px 0 84px;
+  background: #111111 url("interface/team.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  text-align: left;
+  min-height: 360px;
+}
+
 #careers {
-  padding: 134px 0 84px;
+  padding: 160px 0 84px;
   background: #111111 url("interface/careers.jpg") no-repeat 50% 50%;
   background-size: cover;
   -moz-background-size: cover;
@@ -5428,6 +5435,7 @@ a[rel=tooltip] {
 
 @media screen and (max-width: 767px) {
   .three-steps {max-width: 100%; padding: 0 100px;}
+  .what-steps {max-width: 100%; padding: 0 130px;}
 }
 
 .border-outline {
@@ -5442,6 +5450,8 @@ background-color: #f2f2f2;
 .white-text {color: #fff; font-size: 2.4rem !important;}
 
 .white-text h1 {color: #fff !important;}
+
+.white-text h2 {color: #fff !important; font-size: 2rem !important;}
 
 
 @font-face {
