@@ -5421,3 +5421,20 @@ a[rel=tooltip] {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px
 }
+
+.three-steps {max-width: 100%; padding: 50px;}
+
+
+
+@media screen and (max-width: 767px) {
+  .three-steps {max-width: 100%; padding: 0 100px;}
+}
+
+.border-outline {
+  border: solid 0px #333;
+  -moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+padding: 15px;
+background-color: #f2f2f2;
+}
