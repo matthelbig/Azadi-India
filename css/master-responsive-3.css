@@ -4087,7 +4087,7 @@ a[rel=tooltip] {
 }
 
 #homepage-hero {
-  padding: 134px 0 84px;
+  padding: 134px 0 64px;
   background: #111111 url("interface/homepage-hero-bg-2.jpg") no-repeat 50% 50%;
   background-size: cover;
   -moz-background-size: cover;
@@ -5438,3 +5438,67 @@ border-radius: 4px;
 padding: 15px;
 background-color: #f2f2f2;
 }
+
+.white-text {color: #fff; font-size: 2.4rem !important;}
+
+.white-text h1 {color: #fff !important;}
+
+
+@font-face {
+    font-family: "entypo-social";
+    src: url("fonts/entypo-social.woff") format('woff');
+}
+
+@font-face {
+    font-family: "entypo-social";
+    src: url("fonts/entypo-social.eot") format('eot');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "entypo-social";
+    src: url("fonts/entypo-social.svg") format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "entypo-social";
+    src: url("fonts/entypo-social.ttf") format('ttf');
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: "entypo";
+    src: url("fonts/entypo.woff") format('woff');
+}
+
+@font-face {
+    font-family: "entypo";
+    src: url("fonts/entypo.eot") format('eot');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "entypo";
+    src: url("fonts/entypo.svg") format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "entypo";
+    src: url("fonts/entypo.ttf") format('ttf');
+    font-style: italic;
+}
+
+.characters {font-family: 'entypo';
+          font-size: 6em;
+          line-height: .5;
+          color: #fff;
+          text-align: center;
+          padding-top: 20px;
+          opacity: .5;}
+
+.top-padding {padding: 50px 0;}
