@@ -5128,32 +5128,6 @@ a[rel=tooltip] {
   background: #404040;
 }
 
-.lt-ie10 .button {
-  background: transparent url("interface/gradients/button-gray.svg") repeat 0 -2%;
-  background-size: 100% 100%;
-  background-origin: border-box;
-}
-.lt-ie10 .button.button-red {
-  background-image: url("interface/gradients/button-red.svg");
-}
-.lt-ie10 .button.button-linkedin {
-  background-image: url("interface/gradients/button-linkedin.svg");
-}
-.lt-ie10 .button.button-facebook {
-  background-image: url("interface/gradients/button-facebook.svg");
-}
-.lt-ie10 .button.button-twitter {
-  background-image: url("interface/gradients/button-twitter.svg");
-}
-.lt-ie10 .top-bar .button {
-  background-image: url("interface/gradients/button-top-bar.svg");
-}
-.lt-ie10 .st {
-  background: transparent url("interface/gradients/shadow-top.svg") no-repeat 50% 0;
-}
-.lt-ie10 .sbl {
-  background: transparent url("interface/gradients/shadow-bottom-left.svg") no-repeat 0 0;
-}
 
 .module {
   margin: 0 0 21px;
@@ -5384,7 +5358,7 @@ a[rel=tooltip] {
 
 #about-us {
   padding: 134px 0 84px;
-  background: #111111 url("interface/about.jpg") no-repeat 50% 50%;
+  background: #111111 url("interface/about.jpg") no-repeat 50% 50% fixed;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
